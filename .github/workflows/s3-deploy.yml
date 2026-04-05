@@ -8,3 +8,5 @@ jobs:
      uses: action/checkout@v4
    - name: configure aws credentials
       uses: aws action/configure-aws-credential
+    with: 
+    aws aws asses ky id
