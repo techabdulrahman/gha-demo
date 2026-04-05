@@ -11,3 +11,6 @@ jobs:
     with: 
     aws aws asses ky id
      aws aws asses ky id
+    -name: code static code to s3
+      run: |
+      aws s3 syn
