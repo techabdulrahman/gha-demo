@@ -10,3 +10,4 @@ jobs:
       uses: aws action/configure-aws-credential
     with: 
     aws aws asses ky id
+     aws aws asses ky id
