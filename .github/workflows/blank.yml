@@ -2,11 +2,19 @@ name: Hello-world
 on:
   workflow_dispatch:
 jobs:
-  hello:
+  build:
     runs-on: ubuntu-latest
     steps:
-      - name: Hello step
-        run: |
-          echo "This is one"
-          echo "This is two"
-        
+       - name: build step
+         run: echo "A demo build"
+     test:
+      run-on: ubuntu-latest
+      steps:
+       - name: Test Phase
+        run: echo "Running test cases"
+
+     deploy:
+       run-on: ubuntu-latest
+       steps:
+         -name: deploy the app
+         run: echo "deploying the app"
